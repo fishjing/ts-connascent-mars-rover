@@ -31,11 +31,13 @@ export class Direction {
 
     turnLeft(): Direction {
         let previousValue: number = this.value - 1;
+        //Connascence of Algorithm
         return Direction.valueOf((previousValue % 4 + 4) % 4);
     }
 
     turnRight(): Direction {
         let previousValue = this.value + 1;
+        //Connascence of Algorithm
         return Direction.valueOf((previousValue % 4 + 4) % 4);
     }
 

@@ -32,7 +32,7 @@ export class Message {
     public toString(): string {
         return format("%s%s", this.positionMessage, this.commandsMessage)
     }
-
+    //Connascence of Value? - should not create message if not valid
     public isValid(): boolean {
         return this.x != undefined &&
             this.y != undefined &&

@@ -4,7 +4,7 @@ import {ISendNotificationBus} from "./ISendNotificationBus";
 import {IReadMessages} from "../IReadMessages";
 import {IProcessMessages} from "../IProcessMessages";
 import {ISendNotifications} from "../ISendNotifications";
-
+//Connascence of Identity?
 export class ServiceBus implements IMessageReceivedBus, ISendFinalStateBus, ISendNotificationBus, IReadMessages {
 
     private marsRoverController!: IProcessMessages;

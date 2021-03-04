@@ -17,6 +17,7 @@ export class MarsRoverReceiver implements IWriteToServiceBus {
             this.receiver.notifyMessage2(data);
         }
     }(this);
+    //Connascence of Timing
     private MAX_DELAY_MILLISECONDS: number = 3000;
 
     writesTo(marsRoverServiceBus: IMessageReceivedBus): void {
